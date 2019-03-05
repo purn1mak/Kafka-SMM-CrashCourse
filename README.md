@@ -1,6 +1,6 @@
 # Kafka SMM Crash Course
 ## Agenda
-- Kafka Core APIs
+- [Kafka Core APIs]()
 - Building blocks of Kafka
 - Kafka Guarantees
 - Kafka Blindness
