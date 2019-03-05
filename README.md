@@ -1,5 +1,17 @@
-# Kafka-SMM-CrashCourse
-Dataworks Summit Kafka SMM Crash course
+# Kafka SMM Crash Course
+## Agenda
+- Kafka Core APIs
+- Building blocks of Kafka
+- Kafka Guarantees
+- Kafka Blindness
+- Introduction to SMM
+  - SMM REST SERVICES
+  - SMM INTEGRATION WITH 
+    - APACHE ATLAS
+    - APACHE AMBARI
+    - APACHE RANGER
+    - SCHEMA REGISTRY
+    - GRAFANA
 
 ## Kafka has four core APIs:
 
