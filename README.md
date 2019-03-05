@@ -1,6 +1,6 @@
 # Kafka SMM Crash Course
 ## Agenda
-- [Kafka Core APIs]()
+- [Kafka Core APIs](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-has-four-core-apis)
 - Building blocks of Kafka
 - Kafka Guarantees
 - Kafka Blindness
