@@ -7,7 +7,7 @@ Dataworks Summit Kafka SMM Crash course
 - The [Consumer API](https://kafka.apache.org/documentation.html#consumerapi) allows an application to subscribe to one or more topics and process the stream of records produced to them.
 - The [Streams API](https://kafka.apache.org/documentation/streams/) allows an application to act as a stream processor, consuming an input stream from one or more topics and producing an output stream to one or more output topics, effectively transforming the input streams to output streams.
 - The [Connector API](https://kafka.apache.org/documentation.html#connect) allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems. For example, a connector to a relational database might capture every change to a table.
-![Image](https://github.com/purn1mak/HadoopSummitCloudbreak/blob/master/3EasySteps.png)
+![Image](https://github.com/purn1mak/HadoopSummitCloudbreak/blob/master/KafkaBasic.png)
 
 
 ## **Building Blocks of Kafka**
@@ -22,4 +22,4 @@ Dataworks Summit Kafka SMM Crash course
 - **Kafka Cluster:** Kafka is considered a Kafka Cluster when more than one broker exist. The main reason for having multiple brokers is to manage persistance and replication of message data and expand without downtown.
 - **Consumer Group:** Consumers that come from the same group ID.
 - **Consumers:** Read data from brokers by pulling in the data. They subscribe to 1 ore more topics.
-![Image](https://github.com/purn1mak/HadoopSummitCloudbreak/blob/master/3EasySteps.png)
+![Image](https://github.com/purn1mak/HadoopSummitCloudbreak/blob/master/KafkaWhiteBoarding.png)
