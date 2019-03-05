@@ -12,6 +12,11 @@
     - APACHE RANGER
     - SCHEMA REGISTRY
     - GRAFANA
+- Topic Lifecycle Management
+- Alerting
+- Schema Registry Integration
+- KStreams
+- Hive + Kafka
 
 ## Kafka has four core APIs:
 
