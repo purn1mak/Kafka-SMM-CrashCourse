@@ -2,13 +2,13 @@
 ## Agenda
 - [Kafka Core APIs](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-has-four-core-apis)
 - [Building blocks of Kafka](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#building-blocks-of-kafka)
+- [Kafka Guarantees](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-guarantees)
 - Idempotent producer
 - Transactional API in Kafka for exactly once processing
 - Authentication, authorization, 
 - Replication
 - Log compaction, compression
 - Performance
-- Kafka Guarantees
 - Kafka Blindness
 - Introduction to SMM
   - SMM REST SERVICES
