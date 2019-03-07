@@ -2,6 +2,12 @@
 ## Agenda
 - [Kafka Core APIs](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-has-four-core-apis)
 - [Building blocks of Kafka](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#building-blocks-of-kafka)
+- Idempotent producer
+- Transactional API in Kafka for exactly once processing
+- Authentication, authorization, 
+- Replication
+- Log compaction, compression
+- Performance
 - Kafka Guarantees
 - Kafka Blindness
 - Introduction to SMM
@@ -40,3 +46,10 @@
 - **Consumer Group:** Consumers that come from the same group ID.
 - **Consumers:** Read data from brokers by pulling in the data. They subscribe to 1 ore more topics.
 ![Image](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/KafkaWhiteBoarding.png)
+
+## Kafka Guarantees
+At a high-level Kafka gives the following guarantees:
+
+ - Messages sent by a producer to a particular topic partition will be appended in the order they are sent. 
+ - A consumer instance sees records in the order they are stored in the log.
+ - For a topic with replication factor N, we will tolerate up to N-1 server failures without losing any records committed to the log.
