@@ -50,6 +50,6 @@
 ## Kafka Guarantees
 At a high-level Kafka gives the following guarantees:
 
- - Messages sent by a producer to a particular topic partition will be appended in the order they are sent. 
- - A consumer instance sees records in the order they are stored in the log.
- - For a topic with replication factor N, we will tolerate up to N-1 server failures without losing any records committed to the log.
+- Messages sent by a producer to a particular topic partition will be appended in the order they are sent. 
+- A consumer instance sees records in the order they are stored in the log.
+- For a topic with replication factor N, we will tolerate up to N-1 server failures without losing any records committed to the log.
