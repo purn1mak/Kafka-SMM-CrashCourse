@@ -59,11 +59,11 @@ At a high-level Kafka gives the following guarantees:
 
 ## Kafka Blindness
 ### Kafka’s Omnipresence has led to the onset of “Kafka Blindness” 
-- What is “Kafka Blindness”?\
+- What is “Kafka Blindness”?
   – Customers who use Kafka today struggle with monitoring / “seeing”/troubleshooting what is happening in their clusters
-- Who is Affected?\
+- Who is Affected?
   –  Platform Operation Teams–Developers / DevOps Teams–Security / Governance Teams
-- What are the Symptoms?\
+- What are the Symptoms?
   –  Difficulty seeing who is producing and consuming data\
   –  Difficulty understanding the flow of data from producers -> topics -> consumers\
-  –  Difficulty troubleshooting/monitoring.\
+  –  Difficulty troubleshooting/monitoring.
