@@ -70,9 +70,9 @@ At a high-level Kafka gives the following guarantees:
 
 ## Introduction to SMM
 ### Cure is Here: Clouderas Streams Messaging Manager (SMM)
-- What is SMM?\
+- What is SMM?
   - New Open Source  project led by Cloudera to Cure the “Kafka Blindness”
-  - Single Monitoring Dashboard for all your Kafka Clusters across 4 entities
+  - Single Monitoring Dashboard for all your Kafka Clusters across 4 entities\
     – Broker
     – Producer
     – Topic
