@@ -77,9 +77,9 @@ At a high-level Kafka gives the following guarantees:
     – Producer\
     – Topic\
     – Consumer\
-- Designed for the Enterprise
-  – Support for Secure/Kerborized Kafka cluster
-  – Rich Access Control Policies (ACLS)
-  – Supports multiple HDP and/or HDF Kafka Clusters
+- Designed for the Enterprise\
+  – Support for Secure/Kerborized Kafka cluster\
+  – Rich Access Control Policies (ACLS)\
+  – Supports multiple HDP and/or HDF Kafka Clusters\
 - REST as a First Class Citizen
 - Delivered as a DataPlane Service
