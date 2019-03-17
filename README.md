@@ -3,13 +3,8 @@
 - [Kafka Core APIs](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-has-four-core-apis)
 - [Building blocks of Kafka](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#building-blocks-of-kafka)
 - [Kafka Guarantees](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-guarantees)
-- Idempotent producer
-- Transactional API in Kafka for exactly once processing
-- Authentication, authorization, 
-- Replication
-- Log compaction, compression
-- Performance
-- Kafka Blindness
+- [Advance Kafka Topics](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#advance-kafka-topics)
+- [Kafka Blindness](https://github.com/purn1mak/Kafka-SMM-CrashCourse/blob/master/README.md#kafka-blindness)
 - Introduction to SMM
   - SMM REST SERVICES
   - SMM INTEGRATION WITH 
@@ -53,3 +48,22 @@ At a high-level Kafka gives the following guarantees:
 - Messages sent by a producer to a particular topic partition will be appended in the order they are sent. 
 - A consumer instance sees records in the order they are stored in the log.
 - For a topic with replication factor N, we will tolerate up to N-1 server failures without losing any records committed to the log.
+
+## Advance Kafka Topics
+- Idempotent producer
+- Transactional API in Kafka for exactly once processing
+- Authentication, authorization, 
+- Replication
+- Log compaction, compression
+- Performance
+
+## Kafka Blindness
+### Kafka’s Omnipresence has led to the onset of “Kafka Blindness” 
+- What is “Kafka Blindness”?
+  – Customers who use Kafka today struggle with monitoring / “seeing”/troubleshooting what is happening in their clusters
+- Who is Affected?
+  – Platform Operation Teams–Developers / DevOps Teams–Security / Governance Teams
+- What are the Symptoms?
+  – Difficulty seeing who is producing and consuming data
+  – Difficulty understanding the flow of data from producers -> topics -> consumers
+  – Difficulty troubleshooting/monitoring.
