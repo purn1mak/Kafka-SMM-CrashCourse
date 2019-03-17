@@ -67,3 +67,19 @@ At a high-level Kafka gives the following guarantees:
   –  Difficulty seeing who is producing and consuming data\
   –  Difficulty understanding the flow of data from producers -> topics -> consumers\
   –  Difficulty troubleshooting/monitoring.
+
+## Introduction to SMM
+### Cure is Here: Clouderas Streams Messaging Manager (SMM)
+- What is SMM?\
+  - New Open Source  project led by Cloudera to Cure the “Kafka Blindness”
+  - Single Monitoring Dashboard for all your Kafka Clusters across 4 entities
+    – Broker
+    – Producer
+    – Topic
+    – Consumer
+- Designed for the Enterprise
+– Support for Secure/Kerborized Kafka cluster
+– Rich Access Control Policies (ACLS)
+– Supports multiple HDP and/or HDF Kafka Clusters
+- REST as a First Class Citizen
+- Delivered as a DataPlane Service
