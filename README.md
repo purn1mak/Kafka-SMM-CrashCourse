@@ -73,10 +73,10 @@ At a high-level Kafka gives the following guarantees:
 - What is SMM?
   - New Open Source  project led by Cloudera to Cure the “Kafka Blindness”
   - Single Monitoring Dashboard for all your Kafka Clusters across 4 entities\
-    – Broker
-    – Producer
-    – Topic
-    – Consumer
+    – Broker\
+    – Producer\
+    – Topic\
+    – Consumer\
 - Designed for the Enterprise
   – Support for Secure/Kerborized Kafka cluster
   – Rich Access Control Policies (ACLS)
